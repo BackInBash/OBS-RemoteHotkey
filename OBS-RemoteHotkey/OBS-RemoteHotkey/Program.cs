@@ -31,6 +31,7 @@ namespace OBS_RemoteHotkey
             {
                 Icon = Icon.FromHandle(Resources.OBS.GetHicon()),
                 ContextMenu = new ContextMenu(new MenuItem[] {
+                    new MenuItem("Hotkeys", ShowHotkeys),
                     new MenuItem("Options", ShowOptions),
                     new MenuItem("Exit", Exit)
                 }),
@@ -42,6 +43,12 @@ namespace OBS_RemoteHotkey
         void ShowOptions(object sender, EventArgs e)
         {
             Options o = new Options();
+            o.Show();
+        }
+
+        void ShowHotkeys(object sender, EventArgs e)
+        {
+            SetHotkeys o = new SetHotkeys();
             o.Show();
         }
 
