@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(44, 51);
+            this.label1.Location = new System.Drawing.Point(26, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 20);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // IP
             // 
             this.IP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IP.Location = new System.Drawing.Point(48, 85);
+            this.IP.Location = new System.Drawing.Point(30, 70);
             this.IP.Name = "IP";
             this.IP.Size = new System.Drawing.Size(131, 26);
             this.IP.TabIndex = 1;
@@ -58,7 +58,7 @@
             // Password
             // 
             this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password.Location = new System.Drawing.Point(48, 181);
+            this.Password.Location = new System.Drawing.Point(30, 158);
             this.Password.Name = "Password";
             this.Password.PasswordChar = '•';
             this.Password.Size = new System.Drawing.Size(131, 26);
@@ -69,7 +69,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 140);
+            this.label2.Location = new System.Drawing.Point(26, 118);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(177, 20);
             this.label2.TabIndex = 3;
@@ -78,7 +78,7 @@
             // Save
             // 
             this.Save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Save.Location = new System.Drawing.Point(72, 233);
+            this.Save.Location = new System.Drawing.Point(65, 207);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(84, 32);
             this.Save.TabIndex = 4;
@@ -89,9 +89,9 @@
             // Test
             // 
             this.Test.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Test.Location = new System.Drawing.Point(72, 284);
+            this.Test.Location = new System.Drawing.Point(65, 257);
             this.Test.Name = "Test";
-            this.Test.Size = new System.Drawing.Size(84, 27);
+            this.Test.Size = new System.Drawing.Size(84, 30);
             this.Test.TabIndex = 5;
             this.Test.Text = "Test";
             this.Test.UseVisualStyleBackColor = true;
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(253, 327);
+            this.ClientSize = new System.Drawing.Size(218, 316);
             this.Controls.Add(this.Test);
             this.Controls.Add(this.Save);
             this.Controls.Add(this.label2);
